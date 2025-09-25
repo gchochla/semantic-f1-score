@@ -1,0 +1,50 @@
+[project]
+name = "semantic_f1_score"
+version = "1.0.0"
+description = "Semantic F1 Score for Multi-label Classification"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {file = "LICENSE"}
+keywords = ["machine learning", "multi-label classification", "f1 score", "semantic similarity"]
+authors = [
+  {name = "Georgios (Yiorgos) Chochlakis", email = "georgioschochlakis@gmail.com" }
+]
+maintainers = [
+  {name = "Georgios (Yiorgos) Chochlakis", email = "georgioschochlakis@gmail.com" }
+]
+classifiers = [
+  # Common values are
+  #   3 - Alpha
+  #   4 - Beta
+  #   5 - Production/Stable
+  "Development Status :: 3 - Alpha",
+
+  # Pick your license as you wish
+  "License :: OSI Approved :: MIT License",
+
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3 :: Only",
+]
+
+dependencies = [
+  "pandas", "scipy",
+]
+
+[project.optional-dependencies]
+dev = ["black", "pytest"]
+test = ["pytest", "scikit-learn"]
+
+[project.urls]
+"Homepage" = "https://github.com/gchochla/semantic-f1-score"
+"Bug Reports" = "https://github.com/gchochla/semantic-f1-score/issues"
+"Source" = "https://github.com/gchochla/semantic-f1-score"
+
+[build-system]
+requires = [
+    "setuptools>=61.0.0",
+    "wheel"
+]
+build-backend = "setuptools.build_meta"
