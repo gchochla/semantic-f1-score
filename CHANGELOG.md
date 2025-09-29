@@ -1,5 +1,10 @@
 # Changelog
 
+## [1.0.2]
+
+### Added
+- Added link to arXiv paper
+
 ## [1.0.1] - 2025-09-24
 
 ### Fixed

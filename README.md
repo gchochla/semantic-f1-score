@@ -6,7 +6,7 @@
   <em>Semantic F1 grants partial credit by matching predictions and gold labels in both directions.</em>
 </p>
 
-Semantic F1 is a drop-in replacement for `sklearn` hard `f1_score` in subjective or fuzzy multi-label classification. It keeps the familiar precision-recall framing while using a domain similarity matrix to acknowledge when "wrong" labels are still semantically close. The package is the reference implementation accompanying the <em>Semantic F1 Scores: Fair Evaluation Under Fuzzy Class Boundaries</em>.
+Semantic F1 (`semantic_f1_score`) is a drop-in replacement for `sklearn`'s conventional `f1_score` in subjective or fuzzy multi-label classification. It keeps the familiar precision-recall framing while using a domain similarity matrix to acknowledge when "wrong" labels are still semantically close. The package is the reference implementation accompanying the paper: [Semantic F1 Scores: Fair Evaluation Under Fuzzy Class Boundaries](https://arxiv.org/pdf/2509.21633).
 
 ## Installation
 ```bash
@@ -91,7 +91,20 @@ Pull requests and issues are welcome on GitHub.
 
 ## Citation
 
-TBD
+If you found this work useful or if you are using metric, you can use the following citation:
+
+```bibtex
+@article{chochlakis2025semanticf1score,
+    title={Semantic F1 Scores: Fair Evaluation Under Fuzzy Class Boundaries}, 
+    author={Georgios Chochlakis and Jackson Trager and Vedant Jhaveri and Nikhil Ravichandran and Alexandros Potamianos and Shrikanth Narayanan},
+    year={2025},
+    eprint={2509.21633},
+    journal = {arXiv preprint arXiv:2509.21633},
+    primaryClass={cs.AI},
+    url={https://arxiv.org/abs/2509.21633},
+    archiveprefix = {arXiv}
+}
+```
 
 ## License
 Released under the MIT License. See `LICENSE` for details.
