@@ -6,12 +6,6 @@ readme = "README.md"
 requires-python = ">=3.9"
 license = {file = "LICENSE"}
 keywords = ["machine learning", "multi-label classification", "f1 score", "semantic similarity"]
-authors = [
-  {name = "Georgios (Yiorgos) Chochlakis", email = "georgioschochlakis@gmail.com" }
-]
-maintainers = [
-  {name = "Georgios (Yiorgos) Chochlakis", email = "georgioschochlakis@gmail.com" }
-]
 classifiers = [
   # Common values are
   #   3 - Alpha
@@ -36,11 +30,6 @@ dependencies = [
 [project.optional-dependencies]
 dev = ["black", "pytest"]
 test = ["pytest", "scikit-learn"]
-
-[project.urls]
-"Homepage" = "https://github.com/gchochla/semantic-f1-score"
-"Bug Reports" = "https://github.com/gchochla/semantic-f1-score/issues"
-"Source" = "https://github.com/gchochla/semantic-f1-score"
 
 [build-system]
 requires = [
